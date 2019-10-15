@@ -1,2 +1,0 @@
-- set default web browser
-- configure browser, eg. set restore session on start-up
