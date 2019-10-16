@@ -1,3 +1,8 @@
+# Git should not keep track of changes to any of the files that are
+# automatically generated. In this file, we list patterns that match the file
+# names to ignore.
+
+# LaTeX output
 *.aux
 *.fdb_latexmk
 *.fls
@@ -5,3 +10,8 @@
 *.out
 *.synctex.gz
 *.pdf
+
+# Sometimes we want to include files that were excluded by a previous pattern.
+# We can explicitly include files matching a pattern by prefixing it with an
+# exclamation mark !
+!*-target.pdf
