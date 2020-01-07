@@ -1,0 +1,23 @@
+body {
+    background-color: lightyellow ;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+ol {
+    list-style-type: upper-alpha;
+}
+ul { 
+    list-style-type: square ; 
+    color : green ;
+    margin-bottom : 10px ;
+}
+b {
+    color : blue ;
+    font-family: Arial ;
+}
+img {
+    float : right ;
+}
